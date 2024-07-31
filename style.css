@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{  /* bina iske bg nhi aarha tha in blank  */
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(199, 237, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    height: 80%;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ptop{
+    padding: 0 30%;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(63, 109, 57);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h2{
+    color: #ffffff;
+}
+.box{
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: rgb(59, 160, 59);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 20px;
+    color: #5F8D4E;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(103, 160, 97);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.bubble:hover{
+    background-color: rgb(63, 109, 57);
+    cursor: pointer;
+}
